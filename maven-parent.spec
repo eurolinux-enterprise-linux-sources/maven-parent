@@ -1,6 +1,6 @@
 Name:           maven-parent
 Version:        20
-Release:        5%{?dist}
+Release:        4%{?dist}
 Summary:        Apache Maven parent POM
 License:        ASL 2.0
 URL:            http://maven.apache.org
@@ -26,9 +26,6 @@ Apache Maven parent POM file used by other Maven projects.
 %doc LICENSE NOTICE
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20-5
-- Mass rebuild 2013-12-27
-
 * Mon Feb 11 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 20-4
 - Build with xmvn
 
